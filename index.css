@@ -1,0 +1,123 @@
+.body{
+    background-color: #EFF6FF;
+    background-clip: content-box;
+}
+div.all-objects{   
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    width: 1000px; 
+    border: solid 1px white;
+    overflow: hidden;
+}
+.picture{
+    height: 600px;
+    width: 500px;
+    float: left; 
+    clear: none;
+    
+}
+div.all-text{
+    padding-right: 50px;
+    overflow-wrap: normal;
+    padding: 10px;
+}
+div.first-text{
+    margin-right: 100px;
+    margin-top: 50px;
+    color: #2A4A5C;
+    overflow-wrap: normal;
+}
+.header{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.line { 
+    display: flex; 
+    flex-direction: row; 
+    width: 250px;
+} 
+.line:before, 
+.line:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid #000; 
+    margin: auto; 
+} 
+  
+div.buttonRegister{
+    text-align: center;
+}
+.button-facebook {
+    background-color: #255A9B;
+    text-align: center;
+    color: #EFF6FF;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+    border: 0px;
+}
+.button-linkedin {
+    background-color: #0076B6;
+    text-align: center;
+    color: #EFF6FF;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+    border: 0px;
+}
+.inputEmail {
+    height: 40px;
+}
+.inputPass {
+    height: 40px;
+}
+.text {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #2A4A5C;
+}
+.textSelect {
+    font-size: 15px;
+}
+.borderText {
+    font-size: 15px;
+    color: #AFAFAF;
+    display: flex;
+    background-color: white;
+    padding: 2px;
+    max-width: 250px;
+    box-shadow: 10px 10px 15px 10px rgba(235, 230, 230, 0.5);
+}
+.checkBox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid gray;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkBox:checked {
+    background-color: #3698FB;
+}
+.inputAgree {
+    font-size: 12px;
+    color: #AFAFAF;
+    padding-top: 10px;
+}
+div.buttonForDiv {
+    padding-top: 20px;
+}
+.buttonForCreate {
+    background-color: #3698FB;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+}
